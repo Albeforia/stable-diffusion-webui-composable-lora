@@ -72,7 +72,7 @@ script_callbacks.on_before_ui(check_install_state)
 
 class ComposableLoraScript(scripts.Script):
     def title(self):
-        return "Composable Lora"
+        return "ComposableLora"
 
     def show(self, is_img2img):
         return scripts.AlwaysVisible
